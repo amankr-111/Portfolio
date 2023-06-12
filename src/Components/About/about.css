@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Dancing+Script:wght@600&family=Delicious+Handrawn&family=Patua+One&display=swap');
+
+.about1-main{
+
+  height: auto;
+  width: 100%;
+  margin: 5vh 0;
+  font-size: 1.5rem;
+  font-family: 'Alkatra', cursive;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(54, 110, 145, 0.443);
+    padding: 30px;
+    box-sizing: border-box;
+}
+.tab-button {
+    position: relative;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #6c6c6c;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .tab-button.active {
+    color: #ffffff;
+  }
+
+  .tab-button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background-color: #8d0f0f;
+    transition: width 0.3s ease;
+  }
+
+  .tab-button.active::after {
+    width: 100%;
+  } 
+
+  .tab-button:hover{
+    color: greenyellow;
+  }
+  .year {
+    font-size: 20px;
+    color: #9e8181;
+    margin-left: 5px;
+  }
+
+  .datails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .aboute{
+    margin: 20px;
+    display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .helopara{
+      width: 60%;
+  }
+  @media screen and (max-width: 830px){
+    .about1-main {
+      width: 100%;
+      flex-direction: column;
+      height: auto;
+      padding: 5px;
+    }
+    .aboutImg{
+      display: none;
+    }
+    .helopara{
+      width: 100%;
+  }
+  }

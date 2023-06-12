@@ -1,0 +1,21 @@
+.project {
+    height: auto;
+    width: 90%;
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .cardData {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Center cards horizontally */
+    flex-wrap: wrap;
+  }
+
+  

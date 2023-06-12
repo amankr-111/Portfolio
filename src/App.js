@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home';
-import NavBar from './Components/NavBar';
-import Project from './Components/Project';
-import About from './Components/About';
-import Contact from './Components/Contact';
+import NavBar from './Components/navbar/NavBar';
+import Project from './Components/Project/Project';
+import Contact from './Components/contact/Contact';
+import About from './Components/About/About';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <About/>
     <Project/>
     <Contact/>
+    <Footer/>
     </>
   );
 }

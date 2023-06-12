@@ -1,0 +1,44 @@
+.card11 {
+  height: auto;
+  width: 40vh; /* Adjust the width as needed */
+  background-color: rgba(141, 177, 208, 0.459);
+  box-shadow: 2px 2px 30px rgba(32, 110, 174, 0.648);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 5vh;
+  transition: transform 0.3s ease; /* Add easing transition */
+}
+
+.img {
+  height: 170px;
+  width: 100%; /* Adjust the width to occupy the full width of the card */
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px black;
+}
+
+.card11:hover {
+  transform: scale(1.05); /* Example of scale transformation on hover */
+}
+.logo{
+    color: white;
+}  
+
+.logo:hover{
+    color: green;
+}
+  
+  .card11:hover {
+    transform: scale(1.05); /* Example of scale transformation on hover */
+  }
+  @media (max-width: 830px){
+    .card11{
+      flex-direction: column;
+      height: auto;
+      font-size: 1.3rem;
+    }
+  }
